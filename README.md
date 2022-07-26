@@ -1,5 +1,5 @@
 
-How to Remotely execute python script using the Jenkins pipeline
+How to execute python script using the Jenkins pipeline
 # What is Jenkins?
 
 Jenkins is a continuous open-source integration written in Java. it is a Continuous Integration and Continuous delivery tool. We can orchestrate application deployments using Jenkins with a wide range of freely available community plugins and native Jenkins workflows.
@@ -18,9 +18,9 @@ Jenkins is commonly used for the following.
 From Git/SCM, Jenkins pulls the code and then moves it to the commit phase, where the code is committed from a single/multiple branches. Then Jenkins moves it into the build phase where Jenkins compile the code using tools like maven. then we run a series of tests. Then it moves on to the staging server. After a series of Unit Tests or sanity test, it moves to the production.
 
 # Objective
-Here we are executing a remote python script job using the Jenkins pipeline
+Here we are executing a python script job using the Jenkins pipeline
 
-In this project I pushed my project code to GitHub which is linked with Jenkins, which is responsible to execute a remote python script job using the Jenkins pipeline
+In this project I pushed my project code to GitHub which is linked with Jenkins, which is responsible to execute a python script job using the Jenkins pipeline
 
 
 
