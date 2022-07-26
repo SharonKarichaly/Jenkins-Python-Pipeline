@@ -36,7 +36,7 @@ This is a simple python script used to fetch the below details from a server.
 
 4.Load average of the machine
 
-5.disk usage of the machine
+5.Disk usage of the machine
 
 I used socket and subprocess modules in the python to get this details.
 
