@@ -26,19 +26,42 @@ In this project I pushed my project code to GitHub which is linked with Jenkins,
 
 # About Python script
 
-This is a simple python script used to fetch the below details from a remote server.
+This is a simple python script used to fetch the below details from a server.
 
 1.Hostname of the machine
-2.IP of the machine
+
+2.IP address of the machine
+
 3.Total available memory of the machine
+
 4.Load average of the machine
+
 5.disk usage of the machine
 
-I used socket and subprocess modules in the script to get this details.
+I used socket and subprocess modules in the python to get this details.
+
+# Creation of Jenkinsfile
+
+Stage 1:
+Use chekout option in pipeline syntax generator to link the repository with the Jenkins server and select the branch where code is present. since it's a public repository, I am not using any credentials/tokens.
+
+Stage 2:
+Use shell script option in pipeline syntax generator to execute the python script
+
+Stage 3:
+Use shell script option in pipeline syntax generator to redirect the terminal output to a file
+
+Build and verify the stage logs
+
+
+<img width="634" alt="Screenshot 2022-07-26 at 10 40 14 PM" src="https://user-images.githubusercontent.com/106381638/181068554-922ea044-6f7d-4024-bf1d-9b80f6d135c6.png">
+
+
+Login to the server and verify the details in /var/lib/jenkins/workspace/Repository_folder/
 
 
 
-
+<img width="929" alt="Screenshot 2022-07-26 at 10 46 08 PM" src="https://user-images.githubusercontent.com/106381638/181069760-4c5af464-a7f8-4bca-807d-c8704f628105.png">
 
 
 
