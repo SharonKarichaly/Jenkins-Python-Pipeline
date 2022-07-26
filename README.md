@@ -43,7 +43,7 @@ I used socket and subprocess modules in the python to get this details.
 # Creation of Jenkinsfile
 
 Stage 1:
-Use chekout option in pipeline syntax generator to link the repository with the Jenkins server and select the branch where code is present. since it's a public repository, I am not using any credentials/tokens.
+Use checkout option in pipeline syntax generator to link the repository with the Jenkins server and select the branch where code is present. since it's a public repository, I am not using any credentials/tokens.
 
 Stage 2:
 Use shell script option in pipeline syntax generator to execute the python script
