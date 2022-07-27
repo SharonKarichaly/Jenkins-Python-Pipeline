@@ -15,7 +15,7 @@ Jenkins is commonly used for the following.
 5. Run ad-hoc operations like backups, cleanups, remote script execution, event triggers, etc
 
 # Typical workflow of a Jenkins pipeline
-From Git/SCM, Jenkins pulls the code and then moves it to the commit phase, where the code is committed from a single/multiple branches. Then Jenkins moves it into the build phase where Jenkins compile the code using tools like maven. then we run a series of tests. Then it moves on to the staging server. After a series of Unit Tests or sanity test, it moves to the production.
+From Git/SCM, Jenkins pulls the code and then moves it to the commit phase, where the code is committed from a single/multiple branches. Then Jenkins moves it into the build phase where Jenkins compile the code using tools like maven. then we run a series of tests. Then it moves on to the staging server to deploy. After a series of Unit Tests or sanity test, it moves to the production.
 
 # Objective
 Here we are executing a python script job using the Jenkins pipeline
