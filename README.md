@@ -14,8 +14,11 @@ Jenkins is commonly used for the following.
 4. Run batch operations using Jenkins jobs.
 5. Run ad-hoc operations like backups, cleanups, remote script execution, event triggers, etc
 
-# Typical workflow of a Jenkins pipeline
-From Git/SCM, Jenkins pulls the code and then moves it to the commit phase, where the code is committed from a single/multiple branches. Then Jenkins moves it into the build phase where Jenkins compile the code using tools like maven. then we run a series of tests. Then it moves on to the staging server to deploy. After a series of Unit Tests or sanity test, it moves to the production.
+# Jenkins Pipeline
+Jenkins pipeline allows us to define a complete list of events that happen in the code lifecycle. Starting from the build, to testing and deployment. 
+We can use a set of plugins that help in the implementation of certain processes as a continuous delivery pipeline. Where pipelines are defined using code by using groovy language to define the processes that would run in the pipeline. 
+
+
 
 # Objective
 Here we are executing a python script job using the Jenkins pipeline
